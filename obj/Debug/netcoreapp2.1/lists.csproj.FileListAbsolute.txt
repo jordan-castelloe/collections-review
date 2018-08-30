@@ -1,0 +1,11 @@
+/Users/jordancastelloe/workspace/teaching/c#/teaching/lists/bin/Debug/netcoreapp2.1/lists.deps.json
+/Users/jordancastelloe/workspace/teaching/c#/teaching/lists/bin/Debug/netcoreapp2.1/lists.runtimeconfig.json
+/Users/jordancastelloe/workspace/teaching/c#/teaching/lists/bin/Debug/netcoreapp2.1/lists.runtimeconfig.dev.json
+/Users/jordancastelloe/workspace/teaching/c#/teaching/lists/bin/Debug/netcoreapp2.1/lists.dll
+/Users/jordancastelloe/workspace/teaching/c#/teaching/lists/bin/Debug/netcoreapp2.1/lists.pdb
+/Users/jordancastelloe/workspace/teaching/c#/teaching/lists/obj/Debug/netcoreapp2.1/lists.csprojAssemblyReference.cache
+/Users/jordancastelloe/workspace/teaching/c#/teaching/lists/obj/Debug/netcoreapp2.1/lists.csproj.CoreCompileInputs.cache
+/Users/jordancastelloe/workspace/teaching/c#/teaching/lists/obj/Debug/netcoreapp2.1/lists.AssemblyInfoInputs.cache
+/Users/jordancastelloe/workspace/teaching/c#/teaching/lists/obj/Debug/netcoreapp2.1/lists.AssemblyInfo.cs
+/Users/jordancastelloe/workspace/teaching/c#/teaching/lists/obj/Debug/netcoreapp2.1/lists.dll
+/Users/jordancastelloe/workspace/teaching/c#/teaching/lists/obj/Debug/netcoreapp2.1/lists.pdb
