@@ -22,11 +22,13 @@ namespace lists
       grades.Add(75);
       //   Console.WriteLine(grades.Count);
 
+      // Loop through teh grades
       //   foreach (int number in grades)
       //   {
       //     Console.WriteLine(number);
       //   }
 
+      // Creat a new set of grades
       HashSet<int> secondGrades = new HashSet<int>()
     {
         40,
@@ -36,10 +38,14 @@ namespace lists
     };
 
 
+      // Combine the two sets of grades
       //   grades.UnionWith(secondGrades);
       //   Console.WriteLine(grades.Count);
 
+      // create a copy of the original grades hashset (because IntersectWith modifies the original)
       HashSet<int> commonGrades = new HashSet<int>(grades);
+
+      // Now we can safely use IntersectWith to find the common entries between the two hashsets
       commonGrades.IntersectWith(secondGrades);
 
       //   foreach (int item in commonGrades)
@@ -77,6 +83,8 @@ namespace lists
 
 
       // FRANKEN DATA!!!!!
+      // A dictionary of hashsets and the hashsets have ints inside
+      // AAAAAAHHHHH
       Dictionary<string, HashSet<int>> studentIds = new Dictionary<string, HashSet<int>>(){
           {"Ms. Jarell's Class", new HashSet<int>()
           {
@@ -107,6 +115,10 @@ namespace lists
 
       //   }
 
+      //LISTS
+      // This is a list of dictionaries
+      // The dictionaries have strings in them
+
       List<Dictionary<string, string>> studentList = new List<Dictionary<string, string>>()
       {
           new Dictionary<string, string>{
@@ -119,22 +131,18 @@ namespace lists
           }
       };
 
+      // The first loop iterates through the dictionaries
       foreach (Dictionary<string, string> currentCohort in studentList)
       {
+        // The nested loop iterates through the KeyValueParis INSIDE each dictionary
         foreach (KeyValuePair<string, string> currentStudent in currentCohort)
         {
+          // Inside a key value pair, you can access the key with .Key and the value with .Value
           Console.WriteLine($"{currentStudent.Key}'s birthday is {currentStudent.Value}");
         }
-
       }
 
-
-
-
-
-
-
-
+      // THE END
 
     }
   }
